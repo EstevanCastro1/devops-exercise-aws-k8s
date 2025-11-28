@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: devops-api-svc
+  namespace: devops-exercise
+spec:
+  type: LoadBalancer
+  selector:
+    app: devops-api
+  ports:
+    - port: 80
+      targetPort: 8000
+      protocol: TCP

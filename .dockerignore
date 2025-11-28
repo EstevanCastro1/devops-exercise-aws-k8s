@@ -1,0 +1,11 @@
+.venv
+__pycache__
+*.pyc
+.git
+.gitignore
+.idea
+.vscode
+tests
+terraform
+k8s
+README.md
